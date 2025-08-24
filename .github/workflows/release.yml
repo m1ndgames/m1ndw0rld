@@ -1,0 +1,56 @@
+name: Build and Release Modpack
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version (optional) — if omitted, uses tag, VERSION file, or run number"
+        required: false
+        default: ""
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Create ZIP archive
+        run: |
+          python pack_modpack.py
+
+      - name: Determine version
+        id: version
+        shell: bash
+        run: |
+          if [[ "${GITHUB_REF}" == refs/tags/* ]]; then
+            VER="${GITHUB_REF#refs/tags/}"
+          elif [[ -n "${{ github.event.inputs.version }}" ]]; then
+            VER="${{ github.event.inputs.version }}"
+          elif [[ -s VERSION ]]; then
+            VER="$(tr -d '\r' < VERSION | xargs)"
+            if [[ -z "$VER" ]]; then VER="build-${GITHUB_RUN_NUMBER}"; fi
+          else
+            VER="build-${GITHUB_RUN_NUMBER}"
+          fi
+          echo "version=$VER" >> "$GITHUB_OUTPUT"
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: ${{ steps.version.outputs.version }}
+          files: m1ndworld_modpack*.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

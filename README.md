@@ -1,5 +1,4 @@
-# m1ndw0rld — NeoForge 1.21.8 Modpack (v5)
-
+# m1ndw0rld — NeoForge 1.21.8 Modpack
 A curated Minecraft modpack focused on exploration, performance, and quality‑of‑life. Discover new structures and dungeons, enhanced biomes and seasons, convenient backpack/storage systems, detailed world maps, and smooth performance with modern client optimizations and shader support.
 
 ## Quick facts
@@ -18,6 +17,10 @@ You can play this pack using a launcher that supports CurseForge/NeoForge modpac
   1) Instances → New Instance → Import from ZIP.
   2) Select the modpack ZIP and follow the prompts.
 
+## Public server
+- Address: m1nd.io
+- The server is pre-configured in the client. Open Multiplayer and you'll find it listed.
+
 ## Included mods
 The full, up‑to‑date list of included mods (with links to each project) is maintained here:
 - modpack/modlist.html
@@ -25,13 +28,14 @@ The full, up‑to‑date list of included mods (with links to each project) is m
 Open that file to browse all mods and their CurseForge pages.
 
 ## Highlights
-- World generation and exploration: Biomes O' Plenty, Terralith, Explorify, Structory, Dungeons & Taverns, more structures and loot integrations.
-- Performance: Sodium, Entity Culling, spark, Neruina, GPU memory leak fixes.
-- Visuals and shaders: Iris Shaders with Complementary profiles, connected textures and visual enhancements.
-- QoL and utilities: JEI, Jade, Mouse Tweaks, Inventory HUD+, FallingTree, Corpse.
+- World generation and exploration: Biomes O' Plenty, Terralith, Explorify, Structory (+ Towers), Dungeons & Taverns, Loot Integrations.
+- Performance: Sodium, Entity Culling, spark, Neruina, fix GPU memory leak, Packet Fixer.
+- Visuals and shaders: Iris Shaders with Complementary (Reimagined/Unbound), Fusion connected textures suite (Connected Textures/Blocks/Glass, Emissive Ores), Fresh Animations, Better Leaves.
+- QoL and utilities: JEI, Jade, Mouse Tweaks, Inventory HUD+, FallingTree, Corpse, Durability Tooltip, Visual Workbench, WorldEdit, OpenBlocks Elevator, Dynamic Lights [Server].
 - Mapping and navigation: Xaero's Minimap and World Map, Open Parties and Claims.
-- Storage and backpacks: Sophisticated Backpacks and Sophisticated Storage.
+- Storage and backpacks: Sophisticated Backpacks, Sophisticated Storage, Sophisticated Storage in Motion.
 - Seasonal gameplay: Serene Seasons.
+- Mobs and trading: Goblin Traders.
 
 ## Tips
 - Shaders: Enable via Video Settings → Shaders (Iris). Complementary profiles are supported.

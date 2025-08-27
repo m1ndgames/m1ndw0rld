@@ -1,5 +1,10 @@
 {
     "ModSettings": {
         "first_run": false
+    },
+    "Tweaks": {
+        "prevent_close_gui_drop_item": {
+            "value": true
+        }
     }
 }

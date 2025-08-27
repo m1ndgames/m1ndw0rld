@@ -11,7 +11,7 @@
 	#Toggle on by default
 	byDefault = false
 	#Animate recently picked up items
-	animatedInv = false
+	animatedInv = true
 	#Hide background if inventory is empty
 	hideBackground = false
 	#Show Inventory HUD when debug menu is open
@@ -51,7 +51,7 @@
 	# Range: 50 ~ 150
 	armScale = 100
 	#Show Armor HUD when debug menu is open
-	armWithDebug = true
+	armWithDebug = false
 	#Show arrows count when no weapon in your hands
 	showArrowsWithoutWeapon = true
 
@@ -80,7 +80,7 @@
 	#Disable icons for effects in this list
 	effectsBlackList = []
 	#Show Potion HUD when debug menu is open
-	potWithDebug = true
+	potWithDebug = false
 	#Show all levels of effects
 	potionLevels = false
 
@@ -99,17 +99,17 @@
 	#Inventory HUD position (Y)
 	# Default: 150
 	# Range: -9999 ~ 9999
-	yPos = 150
+	yPos = 92
 	#Armor HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	armValign = "BOTTOM"
 	#Armor HUD horizontal align
 	#Allowed Values: LEFT, MIDDLE, RIGHT
-	armHalign = "MIDDLE"
+	armHalign = "LEFT"
 	#Armor HUD position (X)
 	# Default: 0
 	# Range: -9999 ~ 9999
-	xArmPos = 0
+	xArmPos = 239
 	#Armor HUD position (Y)
 	# Default: 70
 	# Range: -9999 ~ 9999

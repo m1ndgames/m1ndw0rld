@@ -18,7 +18,7 @@ You can play this pack using a launcher that supports CurseForge/NeoForge modpac
   2) Select the modpack ZIP and follow the prompts.
 
 ## Public server
-- Address: m1nd.io
+- Address: mc.m1nd.io
 - The server is pre-configured in the client. Open Multiplayer and you'll find it listed.
 
 ## Included mods

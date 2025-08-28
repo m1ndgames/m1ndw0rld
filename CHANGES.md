@@ -30,3 +30,6 @@ Added:
 
 Removed:
 - None
+
+Modified:
+- m1ndw0rld public server

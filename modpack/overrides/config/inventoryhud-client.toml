@@ -109,11 +109,11 @@
 	#Armor HUD position (X)
 	# Default: 0
 	# Range: -9999 ~ 9999
-	xArmPos = 230
+	xArmPos = 237
 	#Armor HUD position (Y)
 	# Default: 70
 	# Range: -9999 ~ 9999
-	yArmPos = 67
+	yArmPos = 58
 	#Potion HUD vertical align
 	#Allowed Values: TOP, CENTER, BOTTOM
 	potValign = "TOP"

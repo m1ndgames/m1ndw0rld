@@ -22,3 +22,11 @@ Added:
 Removed:
 - DarkQuesting — RPG Quests and Casino (mod)
 - Dramatic Skys (texture pack/resource pack)
+
+## 2025-08-28
+
+Added:
+- Chunky (Forge/NeoForge) — world pregenerator
+
+Removed:
+- None

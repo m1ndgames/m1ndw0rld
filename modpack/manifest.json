@@ -12,7 +12,7 @@
   "manifestType": "minecraftModpack",
   "manifestVersion": 1,
   "name": "m1ndw0rld",
-  "version": "v7",
+  "version": "v8",
   "author": "",
   "files": [
     {
@@ -418,6 +418,11 @@
     {
       "projectID": 634062,
       "fileID": 6718770,
+      "required": true
+    },
+    {
+      "projectID": 485681,
+      "fileID": 6677900,
       "required": true
     },
     {

@@ -28,11 +28,11 @@ The full, up‑to‑date list of included mods (with links to each project) is m
 Open that file to browse all mods and their CurseForge pages.
 
 ## Changelog
-- See CHANGES for a summary of what's new and removed on 2025-08-27.
+- See CHANGES for a summary of what's new and removed on 2025-08-28.
 
 ## Highlights
 - World generation and exploration: Biomes O' Plenty, Terralith, Explorify, Structory (+ Towers), Towns and Towers, Dungeons & Taverns, Geophilic, Loot Integrations.
-- Performance: Sodium, Entity Culling, spark, Neruina, fix GPU memory leak, Packet Fixer.
+- Performance: Sodium, Entity Culling, spark, Neruina, fix GPU memory leak, Packet Fixer, Chunky (pregenerator).
 - Visuals and shaders: Iris Shaders with Complementary (Reimagined/Unbound), Fusion connected textures suite (Connected Textures/Blocks/Glass, Emissive Ores), Fresh Animations, Better Leaves.
 - Building and decoration: Macaw's Bridges/Doors/Trapdoors/Windows/Stairs/Roofs/Paths & Pavings/Fences & Walls/Lights & Lamps (+ Biomes O' Plenty add-on), Chisel Reborn, Advanced Chimneys, MrCrayfish's Furniture (Refurbished).
 - QoL and utilities: JEI, Jade, Mouse Tweaks, Inventory HUD+, FallingTree, Crawl, Better Advancements, Corpse, Durability Tooltip, Visual Workbench, WorldEdit, OpenBlocks Elevator, Dynamic Lights [Server].
